@@ -1,9 +1,9 @@
 # LudumDare46
-Create a game using Unity and C# in 48 hours for LudumDare 46 (April 17-20, 2020).
+Create a game using Unity and C# in 48 hours for LudumDare 46 (April 17-20, 2020). First game jam!
 
 ## Post-mortem
 
-This event's theme was "Keep it Alive". I started out with a totally different idea that better matched the theme, but it became too large to do in two days, so I just focused on creating a basic platform game.
+This event's theme was "Keep it Alive". I started out with a totally different idea that better matched the theme, but it became too large to do in two days, and this is my first go at creating a game, so I just focused on creating a basic platform game.
 
 For this project, I wanted to focus on learning how rigid bodies and colliders worked to create the physics aspect of Unity. I broke down the project into tasks using Trello, and my first day was quite productive in getting the sprites set up with basic movement and combat logic. 
 
