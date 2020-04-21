@@ -1,9 +1,21 @@
 # LudumDare46
 Create a game using Unity and C# in 48 hours for LudumDare 46 (April 17-20, 2020).
 
+## Post-mortem
+
+This event's theme was "Keep it Alive". I started out with a totally different idea that better matched the theme, but it became too large to do in two days, so I just focused on creating a basic platform game.
+
+For this project, I wanted to focus on learning how rigid bodies and colliders worked to create the physics aspect of Unity. I broke down the project into tasks using Trello, and my first day was quite productive in getting the sprites set up with basic movement and combat logic. 
+
+On the second day, I got tied up in the respawn logic. If both player and enemy were gone, I wanted them both to automatically respawn after two seconds. I wanted to better understand coroutines and how they worked in lifecycle methods. After a few entertaining bugs, I was finally able to learn how to use them and get it right.
+
+There's lots missing, like audio and health bars. But I learned a lot, both about Unity and what works/doesn't work for me in an iterative development process.
+
 ## Where's the entire source code?
-![Game in Unity](imagesForReadMe/FirstGameInUnity.png)
+
 I only uploaded the scripts I wrote because the artwork I used is not my own. From my understanding, their licenses prohibit me from uploading them to a public repo. But if you'd like to check out the project in more detail and load it in Unity yourself, let me know and I'll share a zip folder privately.
+
+![Game in Unity](imagesForReadMe/FirstGameInUnity.png)
 
 ## WebGL Build
 
@@ -22,7 +34,7 @@ Artwork is not my own! Thank you to the talented people who made the sprites and
 
 Developing a game for the first time, I didn't know there could be such spectacular bugs. Here's the best:
 
-**Knocked over player still operational**
+**Knocked over player**
 
 ![Player can still move despite being knocked over](imagesForReadMe/bug.gif)
 
@@ -34,5 +46,3 @@ Developing a game for the first time, I didn't know there could be such spectacu
 
 Where are you going, Chicken???
 ![Enemy goes in wrong direction](imagesForReadMe/enemyAIFail.gif)
-
-
